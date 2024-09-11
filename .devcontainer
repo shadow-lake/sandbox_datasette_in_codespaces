@@ -1,0 +1,10 @@
+{
+    "name": "Datasette Studio",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postStartCommand": "/workspaces/studio/start.sh",
+    "forwardPorts": [8001],
+    "shutdownAction": "stopContainer"
+}
